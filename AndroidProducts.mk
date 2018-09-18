@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-$(LOCAL_DIR)/pixys_hlte.mk
+$(LOCAL_DIR)/liquid_hlte.mk
