@@ -13,10 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit device stuff.
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
 $(call inherit-product, device/samsung/hlte/full_hlte.mk)
 
 PRODUCT_DEVICE := hlte
-PRODUCT_NAME := lineage_hlte
+PRODUCT_NAME := pixys_hlte
+TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_DENSITY := xxhdpi
+TARGET_BOOT_ANIMATION_RES := 1080
