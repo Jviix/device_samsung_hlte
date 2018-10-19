@@ -13,13 +13,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Bootleggers stuff.
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 $(call inherit-product, device/samsung/hlte/full_hlte.mk)
 
 PRODUCT_DEVICE := hlte
-PRODUCT_NAME := aosp_hlte
+PRODUCT_NAME := bootleg_hlte
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_ARCH := arm
